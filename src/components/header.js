@@ -78,6 +78,7 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/Research">Research</NavLink>
+        <NavLink to="/About">AboutPage</NavLink>
       </p>
     </Content>
   </SiteHeader>
